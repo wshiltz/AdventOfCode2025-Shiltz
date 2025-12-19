@@ -20,6 +20,7 @@ def main():
 
         for num in range(int(idRange[0]), int(idRange[1])+1):
             codes.append(num)
+            print()
             
     invalidCount = 0
     increments = {}
